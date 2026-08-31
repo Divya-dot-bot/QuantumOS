@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QuantumOS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="os">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-symbol">Q</div>
+
+                <div>
+                    <div class="brand-name">QuantumOS</div>
+                    <div class="brand-version">Research Edition</div>
+                </div>
+            </div>
+
+            <nav class="navigation">
+
+                <button class="nav-item active">
+                    <span>⌂</span>
+                    Dashboard
+                </button>
+
+                <button class="nav-item">
+                    <span>⚛</span>
+                    Quantum Core
+                </button>
+
+                <button class="nav-item">
+                    <span>◈</span>
+                    Processes
+                </button>
+
+                <button class="nav-item">
+                    <span>↯</span>
+                    Scheduler
+                </button>
+
+                <button class="nav-item">
+                    <span>▣</span>
+                    Memory
+                </button>
+
+                <button class="nav-item">
+                    <span>›_</span>
+                    Terminal
+                </button>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <button class="nav-item">
+                    <span>⚙</span>
+                    Settings
+                </button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN AREA -->
+        <main class="main">
+
+            <!-- TOP BAR -->
+            <header class="topbar">
+
+                <div>
+                    <div class="page-title">System Dashboard</div>
+                    <div class="page-subtitle">
+                        Quantum-aware operating environment
+                    </div>
+                </div>
+
+                <div class="system-status">
+                    <span class="status-dot"></span>
+                    SYSTEM ONLINE
+                </div>
+
+            </header>
+
+
+            <!-- CONTENT -->
+            <section class="content">
+
+                <!-- WELCOME -->
+                <div class="hero">
+
+                    <div>
+                        <div class="hero-label">
+                            QUANTUMOS CORE
+                        </div>
+
+                        <h1>
+                            Welcome to
+                            <span>QuantumOS</span>
+                        </h1>
+
+                        <p>
+                            An experimental operating system architecture
+                            designed for quantum-aware computation.
+                        </p>
+                    </div>
+
+                    <div class="core-orbit">
+                        <div class="orbit orbit-one"></div>
+                        <div class="orbit orbit-two"></div>
+                        <div class="core-dot">Q</div>
+                    </div>
+
+                </div>
+
+
+                <!-- SYSTEM CARDS -->
+                <div class="stats">
+
+                    <div class="stat-card">
+                        <div class="stat-label">QUBITS</div>
+                        <div class="stat-value">8</div>
+                        <div class="stat-info">Quantum resources</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-label">CPU LOAD</div>
+                        <div class="stat-value">12%</div>
+                        <div class="stat-info">Kernel activity</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-label">MEMORY</div>
+                        <div class="stat-value">1.8 GB</div>
+                        <div class="stat-info">Allocated memory</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-label">TASKS</div>
+                        <div class="stat-value">6</div>
+                        <div class="stat-info">Active processes</div>
+                    </div>
+
+                </div>
+
+
+                <!-- GRID -->
+                <div class="dashboard-grid">
+
+                    <!-- QUANTUM CIRCUIT -->
+                    <section class="panel circuit-panel">
+
+                        <div class="panel-header">
+
+                            <div>
+                                <div class="panel-title">
+                                    Quantum Circuit
+                                </div>
+
+                                <div class="panel-subtitle">
+                                    Quantum Core execution pipeline
+                                </div>
+                            </div>
+
+                            <div class="badge">
+                                READY
+                            </div>
+
+                        </div>
+
+
+                        <div class="circuit">
+
+                            <div class="qubit-row">
+                                <span class="qubit-label">q₀</span>
+
+                                <div class="wire"></div>
+
+                                <div class="gate">H</div>
+
+                                <div class="wire"></div>
+
+                                <div class="control"></div>
+
+                                <div class="wire"></div>
+
+                                <div class="measure">M</div>
+                            </div>
+
+
+                            <div class="qubit-row">
+                                <span class="qubit-label">q₁</span>
+
+                                <div class="wire"></div>
+
+                                <div class="empty-gate"></div>
+
+                                <div class="wire"></div>
+
+                                <div class="target">⊕</div>
+
+                                <div class="wire"></div>
+
+                                <div class="measure">M</div>
+                            </div>
+
+                        </div>
+
+                        <div class="circuit-footer">
+                            <span>State: |00⟩</span>
+                            <span>Depth: 3</span>
+                            <span>Gates: 2</span>
+                        </div>
+
+                    </section>
+
+
+                    <!-- SYSTEM STATUS -->
+                    <section class="panel">
+
+                        <div class="panel-header">
+
+                            <div>
+                                <div class="panel-title">
+                                    System Status
+                                </div>
+
+                                <div class="panel-subtitle">
+                                    Core subsystem health
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="status-list">
+
+                            <div class="status-row">
+                                <span>Kernel</span>
+                                <span class="healthy">
+                                    ACTIVE
+                                </span>
+                            </div>
+
+                            <div class="status-row">
+                                <span>Memory Manager</span>
+                                <span class="healthy">
+                                    ACTIVE
+                                </span>
+                            </div>
+
+                            <div class="status-row">
+                                <span>Scheduler</span>
+                                <span class="healthy">
+                                    ACTIVE
+                                </span>
+                            </div>
+
+                            <div class="status-row">
+                                <span>Quantum Core</span>
+                                <span class="healthy">
+                                    ACTIVE
+                                </span>
+                            </div>
+
+                            <div class="status-row">
+                                <span>Hardware Layer</span>
+                                <span class="healthy">
+                                    READY
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+                <!-- ACTIVITY -->
+                <section class="panel activity-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <div class="panel-title">
+                                System Activity
+                            </div>
+
+                            <div class="panel-subtitle">
+                                Recent kernel and quantum events
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="activity-list">
+
+                        <div class="activity">
+                            <span class="activity-time">
+                                08:22:03
+                            </span>
+
+                            <span class="activity-dot"></span>
+
+                            <span>
+                                Quantum Core initialized
+                            </span>
+                        </div>
+
+                        <div class="activity">
+                            <span class="activity-time">
+                                08:22:01
+                            </span>
+
+                            <span class="activity-dot"></span>
+
+                            <span>
+                                Scheduler started
+                            </span>
+                        </div>
+
+                        <div class="activity">
+                            <span class="activity-time">
+                                08:21:58
+                            </span>
+
+                            <span class="activity-dot"></span>
+
+                            <span>
+                                Memory manager initialized
+                            </span>
+                        </div>
+
+                        <div class="activity">
+                            <span class="activity-time">
+                                08:21:55
+                            </span>
+
+                            <span class="activity-dot"></span>
+
+                            <span>
+                                QuantumOS kernel loaded
+                            </span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

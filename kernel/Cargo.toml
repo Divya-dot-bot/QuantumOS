@@ -1,0 +1,13 @@
+[package]
+name = "quantumos-kernel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bootloader_api = "0.11.17"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

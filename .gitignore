@@ -1,0 +1,97 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Testing
+# ==============================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Type checking / linting
+# ==============================
+
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==============================
+# IDEs / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# Operating systems
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Local databases
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Benchmark output
+# ==============================
+
+benchmarks/results/
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+# Rust build artifacts
+target/
+
+dashboard/node_modules/
+frontend/node_modules/
+

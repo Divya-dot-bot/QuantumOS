@@ -1,0 +1,11 @@
+[package]
+name = "quantumos-boot"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+bootloader = { version = "0.11.17", default-features = false, features = ["bios"] }
+
+[build-dependencies]
+bootloader = { version = "0.11.17", default-features = false, features = ["bios"] }
