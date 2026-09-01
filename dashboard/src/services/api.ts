@@ -39,9 +39,7 @@ export type QuantumResource = Resource;
 // API configuration
 // -----------------------------------------------------------------------------
 
-const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ||
-  "https://quantumos-lehv.onrender.com";
+const API_BASE_URL = "https://quantumos-api.onrender.com";
 
 
 // -----------------------------------------------------------------------------
